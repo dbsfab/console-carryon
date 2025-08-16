@@ -1,7 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "newProjectRoot": "",
   "projects": {
     "ks-console-ng": {
       "projectType": "application",
@@ -50,20 +49,19 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ks-console-ng:build"
+            "buildTarget": "ks-console-ng:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ks-console-ng:build:production"
+              "buildTarget": "ks-console-ng:build:production"
             },
             "development": {
-              "browserTarget": "ks-console-ng:build:development"
+              "buildTarget": "ks-console-ng:build:development"
             }
           },
           "defaultConfiguration": "development"
         }
       }
     }
-  },
-  "defaultProject": "ks-console-ng"
+  }
 }

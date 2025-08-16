@@ -1,0 +1,4 @@
+{
+	"apiBaseUrl": "/api",
+	"wsBaseUrl": "ws://localhost:8000/ws"
+}
